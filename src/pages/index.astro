@@ -15,19 +15,12 @@ const projects = (await getCollection('projects', ({ data }) => !data.draft))
 ---
 
 <Base>
-  <section style="margin-top: 3.5rem;">
-    <h1>Ankit</h1>
-    <p class="lede">
-      I build small things and write about what I learn along the way.
-      This is where the experiments, half-finished ideas, and the
-      occasional finished one all live.
-    </p>
-  </section>
+  <h1 class="visually-hidden">Ankit</h1>
 
   {writing.length > 0 && (
     <>
-      <p class="section-label">Writing</p>
-      <ul class="entries">
+      <p class="section-label reveal reveal-1">Writing</p>
+      <ul class="entries reveal reveal-1">
         {writing.map((post) => (
           <li>
             <a class="entry" href={`/writing/${post.id}`}>
@@ -45,8 +38,8 @@ const projects = (await getCollection('projects', ({ data }) => !data.draft))
 
   {projects.length > 0 && (
     <>
-      <p class="section-label">Projects</p>
-      <ul class="entries">
+      <p class="section-label reveal reveal-2">Projects</p>
+      <ul class="entries reveal reveal-2">
         {projects.map((p) => (
           <li>
             <a class="entry" href={`/projects/${p.id}`}>

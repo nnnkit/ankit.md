@@ -37,25 +37,6 @@ const isActive = (href: string) =>
       })();
     </script>
     <style>
-      .theme-toggle {
-        font-family: var(--serif);
-        font-size: 1rem;
-        line-height: 1;
-        background: none;
-        border: 1px solid var(--line);
-        color: var(--ink-soft);
-        width: 2rem;
-        height: 2rem;
-        border-radius: 999px;
-        cursor: pointer;
-        display: inline-grid;
-        place-items: center;
-        transition: border-color 0.2s ease, color 0.2s ease;
-      }
-      .theme-toggle:hover {
-        color: var(--accent);
-        border-color: var(--accent);
-      }
       .nav-row {
         display: flex;
         align-items: center;
@@ -66,7 +47,10 @@ const isActive = (href: string) =>
   <body>
     <div class="wrap">
       <header class="site-header">
-        <a href="/" class="wordmark">ankit<span class="dot">.md</span></a>
+        <a href="/" class="wordmark" aria-label="Ankit — home">
+          <span class="wordmark-letter" aria-hidden="true">a</span>
+          <span class="wordmark-dot" aria-hidden="true"></span>
+        </a>
         <div class="nav-row">
           <nav class="nav">
             <a href="/writing" aria-current={isActive('/writing')}>writing</a>
