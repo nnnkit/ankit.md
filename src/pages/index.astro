@@ -1,0 +1,64 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+const fmt = (d: Date) =>
+  d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+
+const writing = (await getCollection('writing', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 4);
+
+const projects = (await getCollection('projects', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 4);
+---
+
+<Base>
+  <section style="margin-top: 3.5rem;">
+    <h1>Ankit</h1>
+    <p class="lede">
+      I build small things and write about what I learn along the way.
+      This is where the experiments, half-finished ideas, and the
+      occasional finished one all live.
+    </p>
+  </section>
+
+  {writing.length > 0 && (
+    <>
+      <p class="section-label">Writing</p>
+      <ul class="entries">
+        {writing.map((post) => (
+          <li>
+            <a class="entry" href={`/writing/${post.id}`}>
+              <span class="entry-head">
+                <span class="entry-title">{post.data.title}</span>
+                <span class="entry-date">{fmt(post.data.date)}</span>
+              </span>
+              {post.data.description && <p class="entry-desc">{post.data.description}</p>}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  {projects.length > 0 && (
+    <>
+      <p class="section-label">Projects</p>
+      <ul class="entries">
+        {projects.map((p) => (
+          <li>
+            <a class="entry" href={`/projects/${p.id}`}>
+              <span class="entry-head">
+                <span class="entry-title">{p.data.title}</span>
+                <span class="entry-date">{p.data.status}</span>
+              </span>
+              <p class="entry-desc">{p.data.summary}</p>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </>
+  )}
+</Base>

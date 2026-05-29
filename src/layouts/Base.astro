@@ -1,0 +1,90 @@
+---
+import ThemeToggle from '../components/ThemeToggle.tsx';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title, description = 'Ankit — writing, projects, and small experiments.' } = Astro.props;
+const fullTitle = title ? `${title} · ankit.md` : 'ankit.md';
+const path = Astro.url.pathname;
+const isActive = (href: string) =>
+  href === '/' ? path === '/' : path.startsWith(href);
+---
+
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta name="generator" content={Astro.generator} />
+    <!-- Apply theme before paint to avoid a flash. -->
+    <script is:inline>
+      (() => {
+        try {
+          const saved = localStorage.getItem('theme');
+          const prefersDark = matchMedia('(prefers-color-scheme: dark)').matches;
+          document.documentElement.dataset.theme = saved ?? (prefersDark ? 'dark' : 'light');
+        } catch {}
+      })();
+    </script>
+    <style>
+      .theme-toggle {
+        font-family: var(--serif);
+        font-size: 1rem;
+        line-height: 1;
+        background: none;
+        border: 1px solid var(--line);
+        color: var(--ink-soft);
+        width: 2rem;
+        height: 2rem;
+        border-radius: 999px;
+        cursor: pointer;
+        display: inline-grid;
+        place-items: center;
+        transition: border-color 0.2s ease, color 0.2s ease;
+      }
+      .theme-toggle:hover {
+        color: var(--accent);
+        border-color: var(--accent);
+      }
+      .nav-row {
+        display: flex;
+        align-items: center;
+        gap: 1.25rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="site-header">
+        <a href="/" class="wordmark">ankit<span class="dot">.md</span></a>
+        <div class="nav-row">
+          <nav class="nav">
+            <a href="/writing" aria-current={isActive('/writing')}>writing</a>
+            <a href="/projects" aria-current={isActive('/projects')}>projects</a>
+            <a href="/about" aria-current={isActive('/about')}>about</a>
+          </nav>
+          <ThemeToggle client:load />
+        </div>
+      </header>
+
+      <main>
+        <slot />
+      </main>
+
+      <footer class="site-footer">
+        <span>© {new Date().getFullYear()} Ankit</span>
+        <span>built in the open · <a href="https://github.com/nnnkit">github</a></span>
+      </footer>
+    </div>
+  </body>
+</html>
