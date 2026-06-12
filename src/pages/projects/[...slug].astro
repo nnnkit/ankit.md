@@ -14,20 +14,23 @@ const fmt = (d: Date) =>
 ---
 
 <Base title={project.data.title} description={project.data.summary}>
-  <article style="margin-top: 3.5rem;">
-    <h1>{project.data.title} <span class="tag">{project.data.status}</span></h1>
-    <p class="post-meta">
-      {fmt(project.data.date)}
-      {project.data.url && (
-        <>
-          {' · '}
-          <a href={project.data.url} target="_blank" rel="noopener">visit ↗</a>
-        </>
-      )}
-    </p>
+  <article class="article-page reveal reveal-1">
+    <header class="article-header">
+      <p class="eyebrow">Project</p>
+      <h1>{project.data.title} <span class="tag">{project.data.status}</span></h1>
+      <p class="post-meta">
+        {fmt(project.data.date)}
+        {project.data.url && (
+          <>
+            {' / '}
+            <a href={project.data.url} target="_blank" rel="noopener">Visit project</a>
+          </>
+        )}
+      </p>
+    </header>
     <div class="prose">
       <Content />
     </div>
   </article>
-  <a class="back" href="/projects">← all projects</a>
+  <a class="back" href="/projects">Back to all projects</a>
 </Base>

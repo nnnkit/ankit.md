@@ -14,12 +14,60 @@ const fmt = (d: Date) =>
 ---
 
 <Base title={post.data.title} description={post.data.description}>
-  <article style="margin-top: 3.5rem;">
-    <h1>{post.data.title}</h1>
-    <p class="post-meta">{fmt(post.data.date)}</p>
+  <article class="article-page reveal reveal-1">
+    <header class="article-header">
+      <p class="eyebrow">Writing</p>
+      <h1>{post.data.title}</h1>
+      <p class="post-meta">{fmt(post.data.date)}</p>
+    </header>
     <div class="prose">
       <Content />
     </div>
   </article>
-  <a class="back" href="/writing">← all writing</a>
+  <a class="back" href="/writing">Back to all writing</a>
+  <dialog class="image-lightbox" aria-label="Image preview">
+    <button class="image-lightbox__close" type="button">Close</button>
+    <img alt="" />
+  </dialog>
+  <script>
+    const lightbox = document.querySelector<HTMLDialogElement>('.image-lightbox');
+    const lightboxImage = lightbox?.querySelector('img');
+    const closeButton = lightbox?.querySelector<HTMLButtonElement>('.image-lightbox__close');
+
+    const fullSizeSource = (image: HTMLImageElement) => {
+      const srcset = image.getAttribute('srcset');
+      return srcset?.split(',').at(-1)?.trim().split(/\s+/)[0] ?? image.getAttribute('src');
+    };
+
+    for (const image of document.querySelectorAll('.article-photo img')) {
+      if (!(image instanceof HTMLImageElement) || !lightbox || !lightboxImage) continue;
+
+      image.tabIndex = 0;
+      image.role = 'button';
+      image.setAttribute('aria-label', image.alt ? `Open image preview: ${image.alt}` : 'Open image preview');
+
+      const openLightbox = () => {
+        const src = fullSizeSource(image);
+        if (!src) return;
+
+        lightboxImage.src = src;
+        lightboxImage.alt = image.alt;
+        const filter = getComputedStyle(image).filter;
+        lightboxImage.style.filter = filter === 'none' ? '' : filter;
+        lightbox.showModal();
+      };
+
+      image.addEventListener('click', openLightbox);
+      image.addEventListener('keydown', (event) => {
+        if (event.key !== 'Enter' && event.key !== ' ') return;
+        event.preventDefault();
+        openLightbox();
+      });
+    }
+
+    closeButton?.addEventListener('click', () => lightbox?.close());
+    lightbox?.addEventListener('click', (event) => {
+      if (event.target === lightbox) lightbox.close();
+    });
+  </script>
 </Base>

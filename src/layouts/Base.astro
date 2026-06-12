@@ -26,6 +26,15 @@ const isActive = (href: string) =>
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta name="generator" content={Astro.generator} />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G3FL5BBC06"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-G3FL5BBC06');
+    </script>
     <!-- Apply theme before paint to avoid a flash. -->
     <script is:inline>
       (() => {
@@ -36,13 +45,6 @@ const isActive = (href: string) =>
         } catch {}
       })();
     </script>
-    <style>
-      .nav-row {
-        display: flex;
-        align-items: center;
-        gap: 1.25rem;
-      }
-    </style>
   </head>
   <body>
     <div class="wrap">
@@ -53,9 +55,9 @@ const isActive = (href: string) =>
         </a>
         <div class="nav-row">
           <nav class="nav">
-            <a href="/writing" aria-current={isActive('/writing')}>writing</a>
-            <a href="/projects" aria-current={isActive('/projects')}>projects</a>
-            <a href="/about" aria-current={isActive('/about')}>about</a>
+            <a href="/writing" aria-current={isActive('/writing') ? 'page' : undefined}>writing</a>
+            <a href="/projects" aria-current={isActive('/projects') ? 'page' : undefined}>projects</a>
+            <a href="/about" aria-current={isActive('/about') ? 'page' : undefined}>about</a>
           </nav>
           <ThemeToggle client:load />
         </div>

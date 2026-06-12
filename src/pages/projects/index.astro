@@ -8,12 +8,13 @@ const projects = (await getCollection('projects', ({ data }) => !data.draft)).so
 ---
 
 <Base title="Projects" description="Small things Ankit has built.">
-  <section style="margin-top: 3.5rem;">
+  <section class="page-hero reveal reveal-1">
+    <p class="eyebrow">Portfolio</p>
     <h1>Projects</h1>
-    <p class="lede">Small experiments and tools — some live, some still cooking.</p>
+    <p class="lede">Small experiments and tools. Some live, some still cooking.</p>
   </section>
 
-  <ul class="entries" style="margin-top: 2rem;">
+  <ul class="entries reveal reveal-2">
     {projects.map((p) => (
       <li>
         <a class="entry" href={`/projects/${p.id}`}>
@@ -28,5 +29,5 @@ const projects = (await getCollection('projects', ({ data }) => !data.draft)).so
     ))}
   </ul>
 
-  {projects.length === 0 && <p class="lede" style="margin-top:2rem;">Nothing here yet — soon.</p>}
+  {projects.length === 0 && <p class="empty-state">Nothing here yet. Soon.</p>}
 </Base>

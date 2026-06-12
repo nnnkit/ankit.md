@@ -20,7 +20,7 @@ deciding who sees what. Just text, served fast.
 - **Markdown / MDX** content collections for writing and projects.
 - **One React component** (the light/dark toggle) to keep the door open for
   interactive experiments later.
-- **One accent colour.** Hand-written CSS, no framework.
+- **One accent colour.** Kami ink blue, hand-written CSS, no framework.
 
 ## Adding to it
 
