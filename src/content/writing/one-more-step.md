@@ -1,7 +1,7 @@
 ---
 title: One More Step
 date: 2026-06-12
-description: A Himalayan summit, the point where quitting stayed unsaid, and the loop that became one more day.
+description: A year later, remembering the night I set out on my first 6,000m expedition.
 ---
 
 I am sitting here almost a year later, trying to write this down before it fades completely. Because it is already fading — the way all hard things do once you survive them. The summit photo stays sharp. The fear gets soft around the edges. I want to write it down while the fear is still real.
