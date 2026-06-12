@@ -234,6 +234,13 @@ Except now it's  *One More Day*.
 
 *If you've done any Himalayan expedition or are thinking about it, I'd love to talk. And if you're building something alone and finding the mornings hard — same.*
 
+<aside class="reddit-note" aria-label="Reddit note">
+  <p class="reddit-note__label">For Reddit</p>
+  <p>Short version: I went into my first 6,000m climb thinking it would be a hard trek. By the ice section, everyone from my group had turned back and I was alone with two guides, trying not to say the one sentence that would send me down.</p>
+  <p>The part that stayed with me was not the summit. It was learning how small the unit can get: one more step, and now, one more day.</p>
+  <a class="reddit-note__link" href="https://www.reddit.com/submit?url=https%3A%2F%2Fankit.md%2Fwriting%2Fone-more-step%2F&title=One%20More%20Step">Share this on Reddit</a>
+</aside>
+
 ---
 
 *August 1, 2025 · [Markha Valley, Ladakh](https://www.google.com/maps/search/?api=1&query=Kang%20Yatse%20II%2C%20Markha%20Valley%2C%20Ladakh) · 6,250m*
