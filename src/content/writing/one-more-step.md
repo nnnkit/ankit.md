@@ -188,11 +188,7 @@ The weather was cloudy, but whatever you could see — it was beautiful. A bit f
   <figcaption>Garmin watch altitude at the summit, reading 6,274m around 8:35 AM. <a href="https://www.instagram.com/p/DM4RYlLSU0Q/">theverticaltribe summit post</a>.</figcaption>
 </figure>
 
-Then the clouds closed back in.
-
-And then I realised there was network. The whole trek, nothing. Not a single bar anywhere in the valley. And here at 6,200 metres, full network. One of the guides was on a video call with his family. I remember just standing there watching him do that, thinking how strange that was.
-
-I sent a few messages. Sat down. My body was done. We stayed for maybe half an hour, congratulating, resting, taking photos and not saying much. It was around 8 AM by the time we got there.
+And then I realised there was network. The whole trek, nothing. And here at 6,200 metres, full network. One of the guides was on a video call with his family. I sent a few messages. Sat down. My body was done. We stayed for maybe half an hour, congratulating, resting, taking photos. It was around 8 AM by the time we got there.
 
 ---
 
