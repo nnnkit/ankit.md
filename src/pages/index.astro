@@ -15,12 +15,13 @@ const projects = (await getCollection('projects', ({ data }) => !data.draft))
 ---
 
 <Base>
-  <h1 class="visually-hidden">Ankit</h1>
-
   {writing.length > 0 && (
-    <>
-      <p class="section-label reveal reveal-1">Writing</p>
-      <ul class="entries reveal reveal-1">
+    <section class="section-block reveal reveal-1" aria-labelledby="latest-writing">
+      <div class="section-title-row">
+        <p class="section-label" id="latest-writing">Latest writing</p>
+        <a class="section-link" href="/writing">All writing</a>
+      </div>
+      <ul class="entries">
         {writing.map((post) => (
           <li>
             <a class="entry" href={`/writing/${post.id}`}>
@@ -33,13 +34,16 @@ const projects = (await getCollection('projects', ({ data }) => !data.draft))
           </li>
         ))}
       </ul>
-    </>
+    </section>
   )}
 
   {projects.length > 0 && (
-    <>
-      <p class="section-label reveal reveal-2">Projects</p>
-      <ul class="entries reveal reveal-2">
+    <section class="section-block reveal reveal-2" aria-labelledby="selected-projects">
+      <div class="section-title-row">
+        <p class="section-label" id="selected-projects">Selected projects</p>
+        <a class="section-link" href="/projects">All projects</a>
+      </div>
+      <ul class="entries">
         {projects.map((p) => (
           <li>
             <a class="entry" href={`/projects/${p.id}`}>
@@ -52,6 +56,6 @@ const projects = (await getCollection('projects', ({ data }) => !data.draft))
           </li>
         ))}
       </ul>
-    </>
+    </section>
   )}
 </Base>

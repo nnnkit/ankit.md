@@ -3,23 +3,37 @@ import Base from '../layouts/Base.astro';
 ---
 
 <Base title="About" description="A little about Ankit.">
-  <article style="margin-top: 3.5rem;" class="prose">
-    <h1>About</h1>
+  <section class="page-hero reveal reveal-1">
+    <p class="eyebrow">About</p>
+    <h1>One small internet corner, kept close to the files.</h1>
     <p class="lede">
       Hi, I'm Ankit. I build small things and write about what I learn along
       the way.
     </p>
-    <p>
-      This site is the place where it all lives — the experiments, the
-      half-finished ideas, and the occasional finished one. It's a notebook in
-      public, written in Markdown and
-      <a href="https://github.com/nnnkit/ankit.md">built in the open</a>.
-    </p>
-    <h2>Elsewhere</h2>
-    <ul>
-      <li><a href="https://github.com/nnnkit">GitHub</a></li>
-      <li><a href="https://x.com/nnnkit">X / Twitter</a></li>
-      <li><a href="mailto:iankit17@gmail.com">Email</a></li>
-    </ul>
-  </article>
+  </section>
+
+  <section class="split-section reveal reveal-2">
+    <article class="prose">
+      <p>
+        This site is the place where it all lives: the experiments, the
+        half-finished ideas, and the occasional finished one. It's a notebook in
+        public, written in Markdown and
+        <a href="https://github.com/nnnkit/ankit.md">built in the open</a>.
+      </p>
+      <h2>What belongs here</h2>
+      <p>
+        Notes that sharpen into essays, tools small enough to understand, and
+        project logs that keep the work honest.
+      </p>
+    </article>
+
+    <aside class="aside-panel" aria-labelledby="elsewhere">
+      <h2 id="elsewhere">Elsewhere</h2>
+      <ul class="contact-list">
+        <li><a href="https://github.com/nnnkit">GitHub</a></li>
+        <li><a href="https://x.com/nnnkit">X / Twitter</a></li>
+        <li><a href="mailto:iankit17@gmail.com">Email</a></li>
+      </ul>
+    </aside>
+  </section>
 </Base>
