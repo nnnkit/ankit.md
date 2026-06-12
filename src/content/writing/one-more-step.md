@@ -4,19 +4,19 @@ date: 2026-06-12
 description: A year later, remembering the night I set out on my first 6,000m expedition.
 ---
 
-I am sitting here almost a year later, trying to write this down before it fades completely. Because it is already fading — the way all hard things do once you survive them. The summit photo stays sharp. The fear gets soft around the edges. I want to write it down while the fear is still real.
+I am sitting here almost a year later, trying to write it down before the details become blurry. Because
+ it's already fading — the way all hard things do once you survive them. The photos stays sharp.
+The emotion gets soft around the edges. I want to write it down while the fear still feels real.
 
 ---
 
 ## Why Now
 
-I quit my job a few months back. I am building things on my own — a few products, a few bets. And some mornings are genuinely good. But other mornings I wake up and can feel the struggle.
+I quit my job a few months back. I am trying to build things on my own — a few products and a few bets. Some mornings are genuinely good and exciting. But other mornings I wake up and can feel the struggle.
 
-When you are on your own, you have to make it out of nothing, every single day. And until a product has users — until you have feedback, until something is working — you are just floating. One tab open, then another. One idea, then another. The days blur.
+When you are building on your own, you have to create momentum and persit it. There are no users yet to pull you in a direction, no feedback to tell you what is real, no small sign that something is working. So you drift. One tab becomes ten. One idea becomes another. You can spend a whole day moving and still not know if you went anywhere.
 
-One of those scattered mornings, I remembered the climb.
-
-And I realised: I had already been here before. Not in a co-working space. On ice. At 6,000 metres. In the dark.
+One of those mornings I was struggling and questioning my choices, and I remembered the climb. And realised: I had already been in this situation before. Not in the co-working space but on ice, At 6,000 metres.
 
 ---
 
@@ -24,7 +24,7 @@ And I realised: I had already been here before. Not in a co-working space. On ic
 
 Kang Yatse II is a 6,250m (20,505 feet) peak in the Markha Valley, Ladakh. It was my first 6,000m expedition. I had done treks before — multi-day ones, some hard ones. But nothing that required crampons, ropes, or the phrase *summit attempt*.
 
-There were three of us, plus four guides. We started the ascent from base camp at around 4,300m. We left at 11 PM, because you have to reach the summit before 9 or 10 AM — after that, the sun softens the ice and the mountain becomes something else entirely.
+There were three of us, plus four guides. After trekking for around 4 days (Markha -> Hankar -> Nimaling) we reached base camp. Got acclimatised, rested and a bit of training, we were ready for the summit push. We started the ascent from base camp at around 5,100m (16,700 ft). We left at 11 PM, because you have to reach the summit before 9 or 10 AM — after that, the sun softens the ice and the mountain becomes something else entirely.
 
 <figure class="article-photo article-photo--small">
   <img
@@ -42,7 +42,7 @@ There were three of us, plus four guides. We started the ascent from base camp a
 
 Before we left — the day before, actually — there was a short drill on how to walk in crampons. Not on ice — just on ground. How to place your feet. How the harness fits. That was it. That was my preparation.
 
-I don't really look up treks before doing them. No YouTube, no blogs. Suryansh had asked me to join and I just said yes. There were three of us going for the summit — me, Suryansh, and another girl. I did not fully understand that the entire ascent was going to be on ice until I was already on it.
+I don't really look up treks before doing them. No YouTube, no blogs. Suryansh asked me to join and I just said yes. There were three of us going for the summit — me, Suryansh, and another girl. I did not fully understand that the entire ascent was going to be on ice until I was already on it.
 
 I don't know what I expected. Something more like trekking, I suppose. Difficult, yes. But not categorically different.
 
@@ -50,29 +50,27 @@ I don't know what I expected. Something more like trekking, I suppose. Difficult
 
 ## The First Hour
 
-Suryansh turned back early. He was already showing early signs of altitude sickness — the smart move, the right move — and he made it about an hour and a half before deciding not to continue. He read the situation clearly. But at the time, watching him go back down, something in me tightened.
+Suryansh turned back early. He was already showing signs of altitude sickness — and turning around was the smart move. He read the situation clearly before it could get worse.
 
-Then there were two of us, plus three guides.
+Now we were two of us, plus three guides.
 
-After Suryansh turned back, the three of us kept going — me, the girl, and the guides. We walked for another hour and a half before reaching the base of the ice section. On the way, it started hailing. We stopped right there in the hail, put on our crampons, got all our gear on.
+After Suryansh turned back, we kept going. We trekked for another hour and a half before reaching the base of the ice section. On the way, it started hailing. We stopped right there in the hail, put on our crampons, got all our gear on.
 
-It was only at that moment, looking up at what we were about to climb, that it fully landed — this entire ascent was going to be on ice. With trekking, there is always a worst case you can live with: you get tired, you sit down for ten minutes, you recover, you continue. On ice there is no sitting. You can stop and stand, but that is all you get. Something about realising that, before I had even taken a step, sent my mind somewhere uncomfortable.
+It was only when we stopped to put on the crampons and I looked up properly and understood — this whole ascent was going to be on ice. I don't know what I had imagined before that. Maybe something like trekking, just harder. But in trekking, even when it gets harse, there is still some version of stopping. You get tired, you sit for ten minutes, you recover a little, and then you continue. On ice there is no sitting. You can stop and stand, that's all. Your legs are still hurting. Your feet are still on the slope.
 
-The lead guide went first, the girl behind him, and then me.
+The lead guide went first, the girl behind him, and me.
 
-I remember putting my first foot on the ice. My ankle just — it wasn't moving the way I wanted it to. The shoes are built stiff, that's the point of them, but when you've never worn them before, that stiffness is just pain. And the slope. I don't know, I just felt it immediately — this is not going to be easy.
+I remember putting my first foot on the ice. My ankle — it wasn't moving the way I wanted it to. The shoes are built stiff, that's the point of them, but when you've never worn them before, that stiffness is just pain. And the slope. I felt it immediately — this is not going to be easy.
 
 We started moving. She was ahead of me, and she was slow, which actually helped — it gave me time to find my footing, brute force each step. We kept going like that for a bit.
 
-Around 40-50 metres in, she slipped. Came back onto me. The guides saw it and knew — at this pace, we wouldn't make the summit in time. She didn't want to stop. She'd come all this way. They gave her one more chance, said let's see how the next stretch goes, and if it's not working we have to make a call.
+Around 40-50 metres in, she slipped. Came back onto me. The guides saw it and knew — at this pace, we wouldn't make the summit in time. She didn't want to stop. She'd come all this way. They gave her one more chance, said let's see how the next stretch goes, and if it's not working we will have to make a final call.
 
 It wasn't working. She turned back. One guide went with her.
 
 Now it was two guides and me.
 
-One of them — Ajay, someone I'd trekked with before — came close and said quietly in my ear: "You have to make it."
-
-And I was like — why?
+The guild who was going back — Ajay, someone I'd trekked with before — came close and said quietly in my ear: "You have to make it."
 
 Suryansh left. The girl left. Both of them are fine. Both of them are alive. Why am I suffering here? That's genuinely what was going on in my head. Not some deep existential thing, just — what is the point of this? You climb it, you come back tomorrow, life continues. Nothing changes. So what. And now this guy is telling me I have to make it, and I'm even more scared because now it feels like there's pressure, and I'm thinking maybe I should just tell him let's go back. I don't want to be here. This makes no sense.
 
@@ -80,17 +78,17 @@ Suryansh left. The girl left. Both of them are fine. Both of them are alive. Why
 
 ## The Word I Did Not Say
 
-Here is the thing about that climb that I have thought about most since.
+Here is the thing about that climb that I have thought about multiple times.
 
-At a certain point — maybe an hour in, maybe less — I knew it was possible to stop. All I had to do was say it out loud. If I said *I can't continue*, they would have turned around with me. Professionally, calmly, no judgment.
+At a certain point — maybe an hour in, maybe less — I knew it was possible to go back. All I had to do was say it out loud. If I said *I can't continue*, they would have turned around with me. No judgment an back to base camp.
 
-I knew this. And I close, consciously, not to say it.
+I knew this. But something inside me was stopping me.
 
-Not because I was not suffering. I was. I was sweating through my inner layer even though it was freezing. I was not moving fast. The guides were pulling ahead and I was catching up and falling behind and catching up again. Every part of me was begging for a reason to stop.
+Not because I was not suffering. I was. I was sweating through my inner layer even though it was freezing. I was not moving fast. The guides were pulling ahead and I was catching up and falling behind and catching up again. Every part of me was begging for a reason to just say the word.
 
-But I kept on thinking: *until you say it out loud, it is not real.*
+But I kept on thinking: *if I say it out loud, it will become real.* 
 
-The suffering was real. But untile you say it out laud it's not real. And so I kept it inside. Just one more step. Don't say it. One more step. Don't say it. One more step.
+The suffering was real. But untile you say it out laud it's not real. Kept saying, Just one more step. Don't say it. One more step. Don't say it. One more step.
 
 I don't know how many times that loop ran in my head. Hundreds. Maybe thousands. Each step was its own small negotiation.
 
@@ -98,7 +96,11 @@ I don't know how many times that loop ran in my head. Hundreds. Maybe thousands.
 
 ## The Midpoint
 
-Around the midpoint, there was a small rocky outcrop — a break in the ice where the rock came through just enough that you could actually sit down. Not for long, but you could put your weight somewhere other than your feet for a few minutes. We stopped there. I sat and said nothing. My shirt was completely soaked.
+Somewhere before the midpoint, another thought started coming in: how do you even know when you are pushing hard is good or too much? After a point, it is not a very logical decision. One part of you keeps saying, just push, one more step. Another part is asking, am I being stupid here? Am I crossing a line I should not cross?
+
+And on a mountain, that thought is not dramatic. It is real. If you push past the wrong line, things can go very bad.
+
+Around the midpoint, there was a small patch of rock where the ice broke. It was just enough space to sit for a few minutes and take the weight off my feet. We stopped there. I sat down and said nothing. My shirt was completely soaked.
 
 <figure class="article-photo article-photo--small article-photo--midpoint">
   <img
@@ -114,13 +116,15 @@ Around the midpoint, there was a small rocky outcrop — a break in the ice wher
   <figcaption>On the final stretch toward the summit.</figcaption>
 </figure>
 
-A climber with a guide came down past us. I asked him how long to the summit.
+A climber with guide came down past us. I asked him how long to the summit.
 
 He said: *Two, maybe three more hours.*
 
-Two or three more hours of this. And then the descent. I just went somewhere else for a moment. I took out my phone and started recording. I don't fully know what I was thinking. Something like — if this goes wrong, at least this exists. Not a will, not a message, nothing that clear. Just some instinct that I wanted to leave something behind. Some small proof that I was here, that I had tried, that I had chosen this. My family, the girl I was talking to at that time came into my head. A lot of things at once.
+ Two or three more hours of this. And then the descent. That was the first time I remember wondering if I was pushing too much. When you are already inside something hard, it is not always clear what is courage and what is stupidity. You keep telling yourself to push, but you also don't know where the line is. And on a mountain, crossing that line can go very wrong.
 
-I didn't say any of it. The guide was right there. So I just talked like a normal person on a normal trek, smiled, said something generic, and stopped recording. After resting for a bit
+ Hearing that broke something in me for a moment. I remember going quiet for a moment and taking out my phone. I don't fully know what I was thinking, but some part of me was like — if something happens, at least this will exist. At least there will be some proof that I was here, that I tried, that I chose this.
+
+A lot of things came all at once. I wanted to say what I was actually feeling, but the guide was standing right there. And I thought if I say what I wanted to maybe the guide will be worried, and he would know how scared I was. So I just smiled and spoke like it was a normal trek, said something generic, and stopped recording.
 
 After resting for a bit we started again.
 
@@ -128,7 +132,7 @@ After resting for a bit we started again.
 
 ## The Summit
 
-After the midpoint it was just — keep going. Stop for a breath, catch it, keep going. Stop, breathe, keep going. At some point I stopped thinking entirely. I was just moving.
+After the midpoint it was just — ascend, stop for a breath, catch it, keep going. Stop, breathe, keep going. At some point I stopped thinking entirely. I was just moving.
 
 And then the lead guide pointed ahead and said that's the summit.
 Something in my chest just — released. Like I'd been holding something for hours without realising it and it finally let go. We kept walking for a bit more and then we were there.
@@ -233,13 +237,6 @@ And then it just came back to me. That loop. One more step. Don't say it. One mo
 Except now it's  *One More Day*.
 
 *If you've done any Himalayan expedition or are thinking about it, I'd love to talk. And if you're building something alone and finding the mornings hard — same.*
-
-<aside class="reddit-note" aria-label="Reddit note">
-  <p class="reddit-note__label">For Reddit</p>
-  <p>Short version: I went into my first 6,000m climb thinking it would be a hard trek. By the ice section, everyone from my group had turned back and I was alone with two guides, trying not to say the one sentence that would send me down.</p>
-  <p>The part that stayed with me was not the summit. It was learning how small the unit can get: one more step, and now, one more day.</p>
-  <a class="reddit-note__link" href="https://www.reddit.com/submit?url=https%3A%2F%2Fankit.md%2Fwriting%2Fone-more-step%2F&title=One%20More%20Step">Share this on Reddit</a>
-</aside>
 
 ---
 

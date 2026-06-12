@@ -618,53 +618,6 @@ img {
   margin-top: 0.75rem;
 }
 
-.prose .reddit-note {
-  margin: 2.4rem 0 2rem;
-  padding: 1rem 1.05rem 1.05rem;
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-left: 3px solid var(--accent);
-  border-radius: 8px;
-  box-shadow: 0 12px 30px rgba(20, 20, 19, 0.035);
-}
-
-.prose .reddit-note p {
-  margin: 0;
-  color: var(--dark-warm);
-}
-
-.prose .reddit-note p + p {
-  margin-top: 0.65rem;
-}
-
-.prose .reddit-note__label {
-  font-family: var(--sans);
-  font-size: 0.72rem;
-  line-height: 1.35;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--ink-faint);
-}
-
-.prose .reddit-note__link {
-  display: inline-flex;
-  margin-top: 0.85rem;
-  color: var(--accent);
-  font-family: var(--sans);
-  font-size: 0.86rem;
-  line-height: 1.35;
-  text-decoration: underline;
-  text-decoration-color: var(--accent-soft);
-  text-underline-offset: 0.22em;
-  transition: color 0.18s ease, text-decoration-color 0.18s ease, transform 0.18s var(--ease-out-quint);
-}
-
-.prose .reddit-note__link:hover {
-  color: var(--ink);
-  text-decoration-color: var(--accent);
-  transform: translateY(-1px);
-}
-
 .back {
   display: inline-block;
   margin-top: 2.6rem;
